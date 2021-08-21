@@ -156,7 +156,7 @@
                                                                                 text-align: center;
                                                                             }
                                                                             
-                                                                            @media only screen and (min-width: 700px) and (max-width:1080px) {
+                                                                            @media only screen and (min-width: 400px) and (max-width:800px) {
                                                                                 /* * {
                                                                                     width: 650px;
                                                                                 } */
