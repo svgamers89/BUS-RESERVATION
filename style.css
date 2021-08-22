@@ -157,9 +157,9 @@
                                                                             }
                                                                             
                                                                             @media only screen and (max-width: 1080px) {
-                                                                                /* {
-                                                                                    width: 650px;
-                                                                                } */
+                                                                               
+                                                                 
+                                                                           
                                                                                 .top {
                                                                                     width: 650px;
                                                                                 }
@@ -179,9 +179,7 @@
                                                                                     padding: 7px;
                                                                                     margin: 0px;
                                                                                 }
-                                                                                /* #TOP-SEARCH {
-                                                                                    width: 650px;
-                                                                                } */
+                                                                                
                                                                                 #TOP-SEARCH h1 {
                                                                                     text-align: center;
                                                                                     padding-bottom: 7px;
@@ -216,7 +214,5 @@
                                                                                 #copyright {
                                                                                     width: 650px;
                                                                                 }
-                                                                                /* #Precautions-covid {
-                                                                                    width: 650px;
-                                                                                } */
+                                                                                
                                                                             }
