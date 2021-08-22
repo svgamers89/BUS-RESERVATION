@@ -1,0 +1,213 @@
+                                                                            * {
+                                                                                margin: 0;
+                                                                                padding: 0;
+                                                                                font-family: 'Courgette', cursive;
+                                                                            }
+                                                                            
+                                                                            .nav-bar img {
+                                                                                height: 50px;
+                                                                            }
+                                                                            
+                                                                            .nav-bar {
+                                                                                font-size: 20px;
+                                                                                height: 61px;
+                                                                                list-style-type: none;
+                                                                                display: flex;
+                                                                                background-image: linear-gradient(45deg, rgb(122 218 131), transparent);
+                                                                            }
+                                                                            
+                                                                            .nav-bar ul {
+                                                                                display: flex;
+                                                                                list-style: none;
+                                                                            }
+                                                                            
+                                                                            .nav-bar li {
+                                                                                padding: 10px;
+                                                                                margin-top: 4px;
+                                                                            }
+                                                                            
+                                                                            .nav-bar li a {
+                                                                                text-decoration: none;
+                                                                                color: black;
+                                                                            }
+                                                                            
+                                                                            .nav-bar .button {
+                                                                                float: right;
+                                                                            }
+                                                                            
+                                                                            .nav-bar button {
+                                                                                height: 36px;
+                                                                                width: 85px;
+                                                                                margin-top: 11px;
+                                                                                background: transparent;
+                                                                                border-radius: 16px;
+                                                                                border-color: teal;
+                                                                                cursor: pointer;
+                                                                                margin-left: 16px;
+                                                                                font-size: inherit;
+                                                                            }
+                                                                            
+                                                                            .nav-bar .Main-box img {
+                                                                                height: 70%;
+                                                                            }
+                                                                            
+                                                                            .slide-show {
+                                                                                align-items: center;
+                                                                                /* border: 1px solid black; */
+                                                                                height: 64vh;
+                                                                                /* margin: 10px; */
+                                                                                margin-left: auto;
+                                                                                margin-right: auto;
+                                                                                margin-top: 5px;
+                                                                                width: 68%;
+                                                                                /* margin-bottom: auto; */
+                                                                            }
+                                                                            
+                                                                            .slide-show img {
+                                                                                justify-content: center;
+                                                                                height: 350px;
+                                                                                width: 100%;
+                                                                            }
+                                                                            
+                                                                            #Precautions-covid {
+                                                                                text-align: center;
+                                                                                padding: 0px 0px 11px 0px;
+                                                                            }
+                                                                            
+                                                                            #Precautions-covid img {
+                                                                                margin: 20px 0px 25px 0px;
+                                                                                height: 160px;
+                                                                                padding-left: 60px;
+                                                                            }
+                                                                            /* #TOP-SEARCH {
+    border: 1px solid black;
+} */
+                                                                            
+                                                                            #TOP-SEARCH h1 {
+                                                                                text-align: center;
+                                                                                padding-bottom: 7px;
+                                                                            }
+                                                                            
+                                                                            .Main-box {
+                                                                                display: grid;
+                                                                                grid-template-columns: auto auto;
+                                                                                /* grid-template-columns: auto auto auto; */
+                                                                            }
+                                                                            
+                                                                            .Main-box .card {
+                                                                                text-align: right;
+                                                                            }
+                                                                            
+                                                                            .card {
+                                                                                /* border: 1px solid red; */
+                                                                                height: 40vh;
+                                                                                padding-left: 10px;
+                                                                                /* display: inline-table; */
+                                                                            }
+                                                                            
+                                                                            #payment-accept h1 {
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            #payment-accept img {
+                                                                                height: 70px;
+                                                                                margin-top: 35px;
+                                                                                margin-left: 56px;
+                                                                                margin-bottom: 36px;
+                                                                            }
+                                                                            
+                                                                            #Sponsor {
+                                                                                margin-top: 2%;
+                                                                            }
+                                                                            
+                                                                            #Sponsor h1 {
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            #Sponsor img {
+                                                                                margin-left: 106px;
+                                                                                height: 100px;
+                                                                                padding: 25px;
+                                                                                padding-left: 82px;
+                                                                            }
+                                                                            
+                                                                            #footer-nav-bar {
+                                                                                height: 25vh;
+                                                                                /* border: red 2px solid; */
+                                                                                background-color: rgba(111, 167, 116, 0.911);
+                                                                                display: flex;
+                                                                                padding-left: 20%;
+                                                                            }
+                                                                            
+                                                                            .footer2 {
+                                                                                padding-top: 50px;
+                                                                                padding: 20px;
+                                                                                list-style: none;
+                                                                                font-size: large;
+                                                                            }
+                                                                            
+                                                                            #footer-nav-bar img {
+                                                                                height: 10vh;
+                                                                                cursor: pointer;
+                                                                            }
+                                                                            
+                                                                            #copyright {
+                                                                                background-color: rgb(68, 61, 61);
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            @media only screen and (min-width: 400px) and (max-width:800px) {
+                                                                                .top {
+                                                                                    width: 650px;
+                                                                                }
+                                                                                .nav-bar {
+                                                                                    width: 650px;
+                                                                                }
+                                                                                .slide-show img {
+                                                                                    width: 100%;
+                                                                                }
+                                                                                .Main-box {
+                                                                                    padding: 0px;
+                                                                                    margin: 0px;
+                                                                                    display: grid;
+                                                                                    grid-template-columns: auto;
+                                                                                }
+                                                                                #Precautions-covid img {
+                                                                                    padding: 7px;
+                                                                                    margin: 0px;
+                                                                                }
+                                                                                #TOP-SEARCH h1 {
+                                                                                    text-align: center;
+                                                                                    padding-bottom: 7px;
+                                                                                }
+                                                                                #Sponsor img {
+                                                                                    margin-left: 71px;
+                                                                                    height: 71px;
+                                                                                    padding: 8px;
+                                                                                    padding-left: 0px;
+                                                                                }
+                                                                                #payment-accept img {
+                                                                                    height: 66px;
+                                                                                    margin-left: 37px;
+                                                                                }
+                                                                                #footer-nav-bar {
+                                                                                    width: 650px;
+                                                                                    height: 25vh;
+                                                                                    /* border: red 2px solid; */
+                                                                                    background-color: rgba(111, 167, 116, 0.911);
+                                                                                    display: flex;
+                                                                                    padding-left: 17%;
+                                                                                }
+                                                                                #footer-nav-bar img {
+                                                                                    height: 5vh;
+                                                                                }
+                                                                                #footer-nav-bar {
+                                                                                    height: 17vh;
+                                                                                }
+                                                                                .footer2 {
+                                                                                    font-size: 12px;
+                                                                                }
+                                                                                #copyright {
+                                                                                    width: 650px;
+                                                                                }
+                                                                            }
